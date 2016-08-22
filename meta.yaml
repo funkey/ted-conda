@@ -1,0 +1,23 @@
+package:
+  name: pyted
+  version: "0.0.1"
+
+source:
+  git_url: https://github.com/funkey/pyted
+  git_rev: 055520ce45683e4114e745b256a76b6973e24c02
+
+build:
+  number: 1
+
+requirements:
+ build:
+   - cmake
+   - boost
+   - python
+ run:
+   - boost
+   - python
+
+about:
+  home: https://github.com/funkey/pyted
+  license: MIT License
